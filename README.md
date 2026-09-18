@@ -1,3 +1,3 @@
 <p align="center">
-  <img src="./assets/fastfetch.gif" width="100%">
+  <img src="./assets/fastfetch.svg" width="100%">
 </p>
