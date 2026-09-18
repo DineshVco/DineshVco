@@ -61,65 +61,65 @@
   <tspan fill="#F4F4F5"> Dinesh Kumar</tspan>
 </text>
 
-    <text x="28" y="195" fill="#F4F4F5"
-          font-family="monospace" font-size="15">
-      Alias       : Nash
-    </text>
+<text x="28" y="195" font-family="monospace" font-size="15">
+  <tspan fill="#FF6B00">Alias       :</tspan>
+  <tspan fill="#F4F4F5"> Nash</tspan>
+</text>
 
-    <text x="28" y="220" fill="#F4F4F5"
-          font-family="monospace" font-size="15">
-      University  : Management and Science University (MSU)
-    </text>
+<text x="28" y="220" font-family="monospace" font-size="15">
+  <tspan fill="#FF6B00">University  :</tspan>
+  <tspan fill="#F4F4F5"> Management and Science University (MSU)</tspan>
+</text>
 
-    <text x="28" y="245" fill="#F4F4F5"
-          font-family="monospace" font-size="15">
-      Program     : Computer Science
-    </text>
+<text x="28" y="245" font-family="monospace" font-size="15">
+  <tspan fill="#FF6B00">Program     :</tspan>
+  <tspan fill="#F4F4F5"> Computer Science</tspan>
+</text>
 
-    <text x="28" y="270" fill="#F4F4F5"
-          font-family="monospace" font-size="15">
-      Role        : Software Developer
-    </text>
+<text x="28" y="270" font-family="monospace" font-size="15">
+  <tspan fill="#FF6B00">Role        :</tspan>
+  <tspan fill="#F4F4F5"> Software Developer</tspan>
+</text>
 
-    <text x="28" y="295" fill="#F4F4F5"
-          font-family="monospace" font-size="15">
-      Languages   : Java • Python • JavaScript • PHP
-    </text>
+<text x="28" y="295" font-family="monospace" font-size="15">
+  <tspan fill="#FF6B00">Languages   :</tspan>
+  <tspan fill="#F4F4F5"> Java • Python • JavaScript • PHP</tspan>
+</text>
 
-    <text x="28" y="320" fill="#F4F4F5"
-          font-family="monospace" font-size="15">
-      Web         : Next.js • Tailwind • WordPress
-    </text>
+<text x="28" y="320" font-family="monospace" font-size="15">
+  <tspan fill="#FF6B00">Web         :</tspan>
+  <tspan fill="#F4F4F5"> Next.js • Tailwind • WordPress</tspan>
+</text>
 
-    <text x="28" y="345" fill="#F4F4F5"
-          font-family="monospace" font-size="15">
-      Database    : MySQL • SQL
-    </text>
+<text x="28" y="345" font-family="monospace" font-size="15">
+  <tspan fill="#FF6B00">Database    :</tspan>
+  <tspan fill="#F4F4F5"> MySQL • SQL</tspan>
+</text>
 
-    <text x="28" y="370" fill="#F4F4F5"
-          font-family="monospace" font-size="15">
-      Focus       : AI • Web Development • Software Engineering
-    </text>
+<text x="28" y="370" font-family="monospace" font-size="15">
+  <tspan fill="#FF6B00">Focus       :</tspan>
+  <tspan fill="#F4F4F5"> AI • Web Development • Software Engineering</tspan>
+</text>
 
-    <text x="28" y="395" fill="#F4F4F5"
-          font-family="monospace" font-size="15">
-      Projects    : Voyage Vibe (Travel Management System)
-    </text>
+<text x="28" y="395" font-family="monospace" font-size="15">
+  <tspan fill="#FF6B00">Projects    :</tspan>
+  <tspan fill="#F4F4F5"> Voyage Vibe (Travel Management System)</tspan>
+</text>
 
-    <text x="28" y="420" fill="#F4F4F5"
-          font-family="monospace" font-size="15">
-      Tools       : Git • VS Code • Figma • NetBeans
-    </text>
+<text x="28" y="420" font-family="monospace" font-size="15">
+  <tspan fill="#FF6B00">Tools       :</tspan>
+  <tspan fill="#F4F4F5"> Git • VS Code • Figma • NetBeans</tspan>
+</text>
 
-    <text x="28" y="445" fill="#F4F4F5"
-          font-family="monospace" font-size="15">
-      Interests   : Gym • Tech • Travel
-    </text>
+<text x="28" y="445" font-family="monospace" font-size="15">
+  <tspan fill="#FF6B00">Interests   :</tspan>
+  <tspan fill="#F4F4F5"> Gym • Tech • Travel</tspan>
+</text>
 
-    <text x="28" y="470" fill="#FF6B00"
-          font-family="monospace" font-size="15">
-      Motto       : Build. Learn. Improve. Repeat.
-    </text>
+<text x="28" y="470" font-family="monospace" font-size="15">
+  <tspan fill="#FF6B00">Motto       :</tspan>
+  <tspan fill="#F4F4F5"> Build. Learn. Improve. Repeat.</tspan>
+</text>
 
   </g>
 
