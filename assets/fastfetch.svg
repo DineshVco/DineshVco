@@ -1,1 +1,137 @@
 
+<svg width="1000" height="430" viewBox="0 0 1000 430" xmlns="http://www.w3.org/2000/svg">
+
+  <rect width="1000" height="430" rx="18" fill="#09090B"/>
+
+  <!-- Terminal header -->
+  <circle cx="28" cy="25" r="7" fill="#FF6B00"/>
+  <circle cx="52" cy="25" r="7" fill="#FF8A00"/>
+  <circle cx="76" cy="25" r="7" fill="#FFB000"/>
+
+  <text x="105" y="31"
+        fill="#71717A"
+        font-family="monospace"
+        font-size="15">
+    dinesh@github
+  </text>
+
+  <!-- Command -->
+  <text x="35" y="70"
+        fill="#FF6B00"
+        font-family="monospace"
+        font-size="17">
+    dinesh@github ~ $ fastfetch
+  </text>
+
+  <!-- D logo -->
+  <text x="65" y="150"
+        fill="#FF6B00"
+        font-family="monospace"
+        font-size="70"
+        font-weight="bold">
+    D
+  </text>
+
+  <text x="48" y="185"
+        fill="#FF8A00"
+        font-family="monospace"
+        font-size="12">
+    ▓▓▓▓▓▓▓▓▓▓
+  </text>
+
+  <text x="48" y="205"
+        fill="#FF6B00"
+        font-family="monospace"
+        font-size="12">
+    ▓ DINESH ▓
+  </text>
+
+  <!-- Information -->
+  <text x="300" y="120"
+        fill="#FF6B00"
+        font-family="monospace"
+        font-size="18">
+    dinesh@github
+  </text>
+
+  <text x="300" y="145"
+        fill="#71717A"
+        font-family="monospace"
+        font-size="14">
+    -------------------------------
+  </text>
+
+  <text x="300" y="175"
+        fill="#F4F4F5"
+        font-family="monospace"
+        font-size="15">
+    Name        : Dinesh Kumar
+  </text>
+
+  <text x="300" y="200"
+        fill="#F4F4F5"
+        font-family="monospace"
+        font-size="15">
+    Alias       : Nash
+  </text>
+
+  <text x="300" y="225"
+        fill="#F4F4F5"
+        font-family="monospace"
+        font-size="15">
+    University  : MSU
+  </text>
+
+  <text x="300" y="250"
+        fill="#F4F4F5"
+        font-family="monospace"
+        font-size="15">
+    Program     : Computer Science
+  </text>
+
+  <text x="300" y="275"
+        fill="#F4F4F5"
+        font-family="monospace"
+        font-size="15">
+    Role        : Software Developer
+  </text>
+
+  <text x="300" y="300"
+        fill="#F4F4F5"
+        font-family="monospace"
+        font-size="15">
+    Languages   : Java • Python • PHP
+  </text>
+
+  <text x="300" y="325"
+        fill="#F4F4F5"
+        font-family="monospace"
+        font-size="15">
+    Web         : Next.js • Tailwind
+  </text>
+
+  <text x="300" y="350"
+        fill="#F4F4F5"
+        font-family="monospace"
+        font-size="15">
+    Database    : MySQL • SQL
+  </text>
+
+  <!-- Bottom terminal -->
+  <text x="35" y="395"
+        fill="#FF6B00"
+        font-family="monospace"
+        font-size="16">
+    dinesh@github ~ $
+  </text>
+
+  <!-- Blinking cursor -->
+  <rect x="220" y="380" width="10" height="20" fill="#FF6B00">
+    <animate
+      attributeName="opacity"
+      values="1;0;1"
+      dur="1s"
+      repeatCount="indefinite"/>
+  </rect>
+
+</svg>
