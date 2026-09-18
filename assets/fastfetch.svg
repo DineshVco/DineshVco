@@ -54,10 +54,12 @@
       ----------------
     </text>
 
-    <text x="28" y="170" fill="#F4F4F5"
-          font-family="monospace" font-size="15">
-      Name        : Dinesh Kumar
-    </text>
+    <text x="28" y="170"
+      font-family="monospace"
+      font-size="15">
+  <tspan fill="#FF6B00">Name        :</tspan>
+  <tspan fill="#F4F4F5"> Dinesh Kumar</tspan>
+</text>
 
     <text x="28" y="195" fill="#F4F4F5"
           font-family="monospace" font-size="15">
