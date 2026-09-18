@@ -24,27 +24,14 @@
   </text>
 
   <!-- D logo -->
-  <text x="65" y="150"
-        fill="#FF6B00"
-        font-family="monospace"
-        font-size="70"
-        font-weight="bold">
-    D
-  </text>
+  <text x="55" y="215"
+      fill="#FF6B00"
+      font-family="monospace"
+      font-size="180"
+      font-weight="bold">
+  D
+</text>
 
-  <text x="48" y="185"
-        fill="#FF8A00"
-        font-family="monospace"
-        font-size="12">
-    ▓▓▓▓▓▓▓▓▓▓
-  </text>
-
-  <text x="48" y="205"
-        fill="#FF6B00"
-        font-family="monospace"
-        font-size="12">
-    ▓ DINESH ▓
-  </text>
 
   <!-- Information -->
   <text x="300" y="120"
