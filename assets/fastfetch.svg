@@ -1,4 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="500" viewBox="0 0 1100 500">
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1100"
+     height="500"
+     viewBox="0 0 1100 500">
 
   <rect width="1100" height="500" rx="16" fill="#09090B"/>
 
@@ -12,7 +15,7 @@
         font-family="monospace"
         font-size="14">dinesh@github</text>
 
-  <!-- Command -->
+  <!-- Fastfetch command -->
   <text x="28" y="70"
         fill="#FF6B00"
         font-family="monospace"
@@ -20,178 +23,194 @@
     dinesh@github ~ $ fastfetch
   </text>
 
-  <!-- Profile header -->
+  <!-- Header -->
   <g font-family="monospace" font-size="15">
 
     <text x="28" y="115" fill="#FF6B00">
       dinesh@github
-      <animate attributeName="opacity"
-               values="0;0;1"
-               dur="0.5s"
-               begin="1.5s"
-               fill="freeze"/>
+      <animate
+        attributeName="opacity"
+        values="0;0;1;1;0"
+        keyTimes="0;0.15;0.25;0.85;1"
+        dur="8s"
+        repeatCount="indefinite"/>
     </text>
 
     <text x="28" y="140" fill="#71717A">
       ----------------
-      <animate attributeName="opacity"
-               values="0;0;1"
-               dur="0.5s"
-               begin="1.8s"
-               fill="freeze"/>
+      <animate
+        attributeName="opacity"
+        values="0;0;1;1;0"
+        keyTimes="0;0.18;0.28;0.85;1"
+        dur="8s"
+        repeatCount="indefinite"/>
     </text>
 
     <!-- Name -->
     <text x="28" y="170">
       <tspan fill="#FF6B00">Name        :</tspan>
       <tspan fill="#F4F4F5"> Dinesh Kumar</tspan>
-      <animate attributeName="opacity"
-               values="0;0;1"
-               dur="0.4s"
-               begin="2.1s"
-               fill="freeze"/>
+      <animate
+        attributeName="opacity"
+        values="0;0;1;1;0"
+        keyTimes="0;0.22;0.32;0.85;1"
+        dur="8s"
+        repeatCount="indefinite"/>
     </text>
 
     <!-- Alias -->
     <text x="28" y="195">
       <tspan fill="#FF6B00">Alias       :</tspan>
       <tspan fill="#F4F4F5"> Nash</tspan>
-      <animate attributeName="opacity"
-               values="0;0;1"
-               dur="0.4s"
-               begin="2.35s"
-               fill="freeze"/>
+      <animate
+        attributeName="opacity"
+        values="0;0;1;1;0"
+        keyTimes="0;0.26;0.36;0.85;1"
+        dur="8s"
+        repeatCount="indefinite"/>
     </text>
 
     <!-- University -->
     <text x="28" y="220">
       <tspan fill="#FF6B00">University  :</tspan>
       <tspan fill="#F4F4F5"> Management and Science University (MSU)</tspan>
-      <animate attributeName="opacity"
-               values="0;0;1"
-               dur="0.4s"
-               begin="2.6s"
-               fill="freeze"/>
+      <animate
+        attributeName="opacity"
+        values="0;0;1;1;0"
+        keyTimes="0;0.30;0.40;0.85;1"
+        dur="8s"
+        repeatCount="indefinite"/>
     </text>
 
     <!-- Program -->
     <text x="28" y="245">
       <tspan fill="#FF6B00">Program     :</tspan>
       <tspan fill="#F4F4F5"> Computer Science</tspan>
-      <animate attributeName="opacity"
-               values="0;0;1"
-               dur="0.4s"
-               begin="2.85s"
-               fill="freeze"/>
+      <animate
+        attributeName="opacity"
+        values="0;0;1;1;0"
+        keyTimes="0;0.34;0.44;0.85;1"
+        dur="8s"
+        repeatCount="indefinite"/>
     </text>
 
     <!-- Role -->
     <text x="28" y="270">
       <tspan fill="#FF6B00">Role        :</tspan>
       <tspan fill="#F4F4F5"> Software Developer</tspan>
-      <animate attributeName="opacity"
-               values="0;0;1"
-               dur="0.4s"
-               begin="3.1s"
-               fill="freeze"/>
+      <animate
+        attributeName="opacity"
+        values="0;0;1;1;0"
+        keyTimes="0;0.38;0.48;0.85;1"
+        dur="8s"
+        repeatCount="indefinite"/>
     </text>
 
     <!-- Languages -->
     <text x="28" y="295">
       <tspan fill="#FF6B00">Languages   :</tspan>
       <tspan fill="#F4F4F5"> Java • Python • JavaScript • PHP</tspan>
-      <animate attributeName="opacity"
-               values="0;0;1"
-               dur="0.4s"
-               begin="3.35s"
-               fill="freeze"/>
+      <animate
+        attributeName="opacity"
+        values="0;0;1;1;0"
+        keyTimes="0;0.42;0.52;0.85;1"
+        dur="8s"
+        repeatCount="indefinite"/>
     </text>
 
     <!-- Web -->
     <text x="28" y="320">
       <tspan fill="#FF6B00">Web         :</tspan>
       <tspan fill="#F4F4F5"> Next.js • Tailwind • WordPress</tspan>
-      <animate attributeName="opacity"
-               values="0;0;1"
-               dur="0.4s"
-               begin="3.6s"
-               fill="freeze"/>
+      <animate
+        attributeName="opacity"
+        values="0;0;1;1;0"
+        keyTimes="0;0.46;0.56;0.85;1"
+        dur="8s"
+        repeatCount="indefinite"/>
     </text>
 
     <!-- Database -->
     <text x="28" y="345">
       <tspan fill="#FF6B00">Database    :</tspan>
       <tspan fill="#F4F4F5"> MySQL • SQL</tspan>
-      <animate attributeName="opacity"
-               values="0;0;1"
-               dur="0.4s"
-               begin="3.85s"
-               fill="freeze"/>
+      <animate
+        attributeName="opacity"
+        values="0;0;1;1;0"
+        keyTimes="0;0.50;0.60;0.85;1"
+        dur="8s"
+        repeatCount="indefinite"/>
     </text>
 
     <!-- Focus -->
     <text x="28" y="370">
       <tspan fill="#FF6B00">Focus       :</tspan>
       <tspan fill="#F4F4F5"> AI • Web Development • Software Engineering</tspan>
-      <animate attributeName="opacity"
-               values="0;0;1"
-               dur="0.4s"
-               begin="4.1s"
-               fill="freeze"/>
+      <animate
+        attributeName="opacity"
+        values="0;0;1;1;0"
+        keyTimes="0;0.54;0.64;0.85;1"
+        dur="8s"
+        repeatCount="indefinite"/>
     </text>
 
     <!-- Projects -->
     <text x="28" y="395">
       <tspan fill="#FF6B00">Projects    :</tspan>
       <tspan fill="#F4F4F5"> Voyage Vibe (Travel Management System)</tspan>
-      <animate attributeName="opacity"
-               values="0;0;1"
-               dur="0.4s"
-               begin="4.35s"
-               fill="freeze"/>
+      <animate
+        attributeName="opacity"
+        values="0;0;1;1;0"
+        keyTimes="0;0.58;0.68;0.85;1"
+        dur="8s"
+        repeatCount="indefinite"/>
     </text>
 
     <!-- Tools -->
     <text x="28" y="420">
       <tspan fill="#FF6B00">Tools       :</tspan>
       <tspan fill="#F4F4F5"> Git • VS Code • Figma • NetBeans</tspan>
-      <animate attributeName="opacity"
-               values="0;0;1"
-               dur="0.4s"
-               begin="4.6s"
-               fill="freeze"/>
+      <animate
+        attributeName="opacity"
+        values="0;0;1;1;0"
+        keyTimes="0;0.62;0.72;0.85;1"
+        dur="8s"
+        repeatCount="indefinite"/>
     </text>
 
     <!-- Interests -->
     <text x="28" y="445">
       <tspan fill="#FF6B00">Interests   :</tspan>
       <tspan fill="#F4F4F5"> Gym • Tech • Travel</tspan>
-      <animate attributeName="opacity"
-               values="0;0;1"
-               dur="0.4s"
-               begin="4.85s"
-               fill="freeze"/>
+      <animate
+        attributeName="opacity"
+        values="0;0;1;1;0"
+        keyTimes="0;0.66;0.76;0.85;1"
+        dur="8s"
+        repeatCount="indefinite"/>
     </text>
 
     <!-- Motto -->
     <text x="28" y="470">
       <tspan fill="#FF6B00">Motto       :</tspan>
       <tspan fill="#F4F4F5"> Build. Learn. Improve. Repeat.</tspan>
-      <animate attributeName="opacity"
-               values="0;0;1"
-               dur="0.4s"
-               begin="5.1s"
-               fill="freeze"/>
+      <animate
+        attributeName="opacity"
+        values="0;0;1;1;0"
+        keyTimes="0;0.70;0.80;0.85;1"
+        dur="8s"
+        repeatCount="indefinite"/>
     </text>
 
   </g>
 
   <!-- Blinking cursor -->
   <rect x="28" y="485" width="9" height="12" fill="#FF6B00">
-    <animate attributeName="opacity"
-             values="1;0;1"
-             dur="1s"
-             repeatCount="indefinite"/>
+    <animate
+      attributeName="opacity"
+      values="1;0;1"
+      dur="0.9s"
+      repeatCount="indefinite"/>
   </rect>
 
 </svg>
