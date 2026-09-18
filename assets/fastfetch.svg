@@ -1,4 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1100" height="500" viewBox="0 0 1100 500">
+
   <rect width="1100" height="500" rx="16" fill="#09090B"/>
 
   <!-- Terminal buttons -->
@@ -6,91 +7,127 @@
   <circle cx="50" cy="25" r="6" fill="#FFBD2E"/>
   <circle cx="72" cy="25" r="6" fill="#27C93F"/>
 
-  <!-- Terminal title -->
   <text x="95" y="30"
         fill="#71717A"
         font-family="monospace"
-        font-size="14">dinesh@github</text>
+        font-size="14">
+    dinesh@github
+  </text>
 
   <!-- Command -->
   <text x="28" y="70"
         fill="#FF6B00"
         font-family="monospace"
-        font-size="17">dinesh@github ~ $ fastfetch</text>
+        font-size="17">
+    dinesh@github ~ $ 
+    <tspan>
+      fastfetch
+      <animate
+        attributeName="opacity"
+        values="0;0;1"
+        dur="1.5s"
+        repeatCount="1"/>
+    </tspan>
+  </text>
 
-  <!-- Profile -->
-  <text x="28" y="115"
-        fill="#FF6B00"
-        font-family="monospace"
-        font-size="18">dinesh@github</text>
+  <!-- Profile header -->
+  <g opacity="0">
 
-  <text x="28" y="140"
-        fill="#71717A"
-        font-family="monospace"
-        font-size="14">----------------</text>
+    <animate
+      attributeName="opacity"
+      values="0;0;1"
+      dur="2s"
+      begin="1.5s"
+      fill="freeze"/>
 
-  <text x="28" y="170"
-        fill="#F4F4F5"
-        font-family="monospace"
-        font-size="15">Name        : Dinesh Kumar</text>
+    <text x="28" y="115"
+          fill="#FF6B00"
+          font-family="monospace"
+          font-size="18">
+      dinesh@github
+    </text>
 
-  <text x="28" y="195"
-        fill="#F4F4F5"
-        font-family="monospace"
-        font-size="15">Alias       : Nash</text>
+    <text x="28" y="140"
+          fill="#71717A"
+          font-family="monospace"
+          font-size="14">
+      ----------------
+    </text>
 
-  <text x="28" y="220"
-        fill="#F4F4F5"
-        font-family="monospace"
-        font-size="15">University  : Management and Science University (MSU)</text>
+    <text x="28" y="170" fill="#F4F4F5"
+          font-family="monospace" font-size="15">
+      Name        : Dinesh Kumar
+    </text>
 
-  <text x="28" y="245"
-        fill="#F4F4F5"
-        font-family="monospace"
-        font-size="15">Program     : Computer Science</text>
+    <text x="28" y="195" fill="#F4F4F5"
+          font-family="monospace" font-size="15">
+      Alias       : Nash
+    </text>
 
-  <text x="28" y="270"
-        fill="#F4F4F5"
-        font-family="monospace"
-        font-size="15">Role        : Software Developer</text>
+    <text x="28" y="220" fill="#F4F4F5"
+          font-family="monospace" font-size="15">
+      University  : Management and Science University (MSU)
+    </text>
 
-  <text x="28" y="295"
-        fill="#F4F4F5"
-        font-family="monospace"
-        font-size="15">Languages   : Java • Python • JavaScript • PHP</text>
+    <text x="28" y="245" fill="#F4F4F5"
+          font-family="monospace" font-size="15">
+      Program     : Computer Science
+    </text>
 
-  <text x="28" y="320"
-        fill="#F4F4F5"
-        font-family="monospace"
-        font-size="15">Web         : Next.js • Tailwind • WordPress</text>
+    <text x="28" y="270" fill="#F4F4F5"
+          font-family="monospace" font-size="15">
+      Role        : Software Developer
+    </text>
 
-  <text x="28" y="345"
-        fill="#F4F4F5"
-        font-family="monospace"
-        font-size="15">Database    : MySQL • SQL</text>
+    <text x="28" y="295" fill="#F4F4F5"
+          font-family="monospace" font-size="15">
+      Languages   : Java • Python • JavaScript • PHP
+    </text>
 
-  <text x="28" y="370"
-        fill="#F4F4F5"
-        font-family="monospace"
-        font-size="15">Focus       : AI • Web Development • Software Engineering</text>
+    <text x="28" y="320" fill="#F4F4F5"
+          font-family="monospace" font-size="15">
+      Web         : Next.js • Tailwind • WordPress
+    </text>
 
-  <text x="28" y="395"
-        fill="#F4F4F5"
-        font-family="monospace"
-        font-size="15">Projects    : Voyage Vibe (Travel Management System)</text>
+    <text x="28" y="345" fill="#F4F4F5"
+          font-family="monospace" font-size="15">
+      Database    : MySQL • SQL
+    </text>
 
-  <text x="28" y="420"
-        fill="#F4F4F5"
-        font-family="monospace"
-        font-size="15">Tools       : Git • VS Code • Figma • NetBeans</text>
+    <text x="28" y="370" fill="#F4F4F5"
+          font-family="monospace" font-size="15">
+      Focus       : AI • Web Development • Software Engineering
+    </text>
 
-  <text x="28" y="445"
-        fill="#F4F4F5"
-        font-family="monospace"
-        font-size="15">Interests   : Gym • Tech • Travel</text>
+    <text x="28" y="395" fill="#F4F4F5"
+          font-family="monospace" font-size="15">
+      Projects    : Voyage Vibe (Travel Management System)
+    </text>
 
-  <text x="28" y="470"
-        fill="#FF6B00"
-        font-family="monospace"
-        font-size="15">Motto       : Build. Learn. Improve. Repeat.</text>
+    <text x="28" y="420" fill="#F4F4F5"
+          font-family="monospace" font-size="15">
+      Tools       : Git • VS Code • Figma • NetBeans
+    </text>
+
+    <text x="28" y="445" fill="#F4F4F5"
+          font-family="monospace" font-size="15">
+      Interests   : Gym • Tech • Travel
+    </text>
+
+    <text x="28" y="470" fill="#FF6B00"
+          font-family="monospace" font-size="15">
+      Motto       : Build. Learn. Improve. Repeat.
+    </text>
+
+  </g>
+
+  <!-- Cursor -->
+  <rect x="190" y="457" width="9" height="17" fill="#FF6B00">
+    <animate
+      attributeName="opacity"
+      values="1;0;1"
+      dur="1s"
+      repeatCount="indefinite"/>
+  </rect>
+
 </svg>
