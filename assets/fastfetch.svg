@@ -10,126 +10,188 @@
   <text x="95" y="30"
         fill="#71717A"
         font-family="monospace"
-        font-size="14">
-    dinesh@github
-  </text>
+        font-size="14">dinesh@github</text>
 
   <!-- Command -->
   <text x="28" y="70"
         fill="#FF6B00"
         font-family="monospace"
         font-size="17">
-    dinesh@github ~ $ 
-    <tspan>
-      fastfetch
-      <animate
-        attributeName="opacity"
-        values="0;0;1"
-        dur="1.5s"
-        repeatCount="1"/>
-    </tspan>
+    dinesh@github ~ $ fastfetch
   </text>
 
   <!-- Profile header -->
-  <g opacity="0">
+  <g font-family="monospace" font-size="15">
 
-    <animate
-      attributeName="opacity"
-      values="0;0;1"
-      dur="2s"
-      begin="1.5s"
-      fill="freeze"/>
-
-    <text x="28" y="115"
-          fill="#FF6B00"
-          font-family="monospace"
-          font-size="18">
+    <text x="28" y="115" fill="#FF6B00">
       dinesh@github
+      <animate attributeName="opacity"
+               values="0;0;1"
+               dur="0.5s"
+               begin="1.5s"
+               fill="freeze"/>
     </text>
 
-    <text x="28" y="140"
-          fill="#71717A"
-          font-family="monospace"
-          font-size="14">
+    <text x="28" y="140" fill="#71717A">
       ----------------
+      <animate attributeName="opacity"
+               values="0;0;1"
+               dur="0.5s"
+               begin="1.8s"
+               fill="freeze"/>
     </text>
 
-    <text x="28" y="170"
-      font-family="monospace"
-      font-size="15">
-  <tspan fill="#FF6B00">Name        :</tspan>
-  <tspan fill="#F4F4F5"> Dinesh Kumar</tspan>
-</text>
+    <!-- Name -->
+    <text x="28" y="170">
+      <tspan fill="#FF6B00">Name        :</tspan>
+      <tspan fill="#F4F4F5"> Dinesh Kumar</tspan>
+      <animate attributeName="opacity"
+               values="0;0;1"
+               dur="0.4s"
+               begin="2.1s"
+               fill="freeze"/>
+    </text>
 
-<text x="28" y="195" font-family="monospace" font-size="15">
-  <tspan fill="#FF6B00">Alias       :</tspan>
-  <tspan fill="#F4F4F5"> Nash</tspan>
-</text>
+    <!-- Alias -->
+    <text x="28" y="195">
+      <tspan fill="#FF6B00">Alias       :</tspan>
+      <tspan fill="#F4F4F5"> Nash</tspan>
+      <animate attributeName="opacity"
+               values="0;0;1"
+               dur="0.4s"
+               begin="2.35s"
+               fill="freeze"/>
+    </text>
 
-<text x="28" y="220" font-family="monospace" font-size="15">
-  <tspan fill="#FF6B00">University  :</tspan>
-  <tspan fill="#F4F4F5"> Management and Science University (MSU)</tspan>
-</text>
+    <!-- University -->
+    <text x="28" y="220">
+      <tspan fill="#FF6B00">University  :</tspan>
+      <tspan fill="#F4F4F5"> Management and Science University (MSU)</tspan>
+      <animate attributeName="opacity"
+               values="0;0;1"
+               dur="0.4s"
+               begin="2.6s"
+               fill="freeze"/>
+    </text>
 
-<text x="28" y="245" font-family="monospace" font-size="15">
-  <tspan fill="#FF6B00">Program     :</tspan>
-  <tspan fill="#F4F4F5"> Computer Science</tspan>
-</text>
+    <!-- Program -->
+    <text x="28" y="245">
+      <tspan fill="#FF6B00">Program     :</tspan>
+      <tspan fill="#F4F4F5"> Computer Science</tspan>
+      <animate attributeName="opacity"
+               values="0;0;1"
+               dur="0.4s"
+               begin="2.85s"
+               fill="freeze"/>
+    </text>
 
-<text x="28" y="270" font-family="monospace" font-size="15">
-  <tspan fill="#FF6B00">Role        :</tspan>
-  <tspan fill="#F4F4F5"> Software Developer</tspan>
-</text>
+    <!-- Role -->
+    <text x="28" y="270">
+      <tspan fill="#FF6B00">Role        :</tspan>
+      <tspan fill="#F4F4F5"> Software Developer</tspan>
+      <animate attributeName="opacity"
+               values="0;0;1"
+               dur="0.4s"
+               begin="3.1s"
+               fill="freeze"/>
+    </text>
 
-<text x="28" y="295" font-family="monospace" font-size="15">
-  <tspan fill="#FF6B00">Languages   :</tspan>
-  <tspan fill="#F4F4F5"> Java • Python • JavaScript • PHP</tspan>
-</text>
+    <!-- Languages -->
+    <text x="28" y="295">
+      <tspan fill="#FF6B00">Languages   :</tspan>
+      <tspan fill="#F4F4F5"> Java • Python • JavaScript • PHP</tspan>
+      <animate attributeName="opacity"
+               values="0;0;1"
+               dur="0.4s"
+               begin="3.35s"
+               fill="freeze"/>
+    </text>
 
-<text x="28" y="320" font-family="monospace" font-size="15">
-  <tspan fill="#FF6B00">Web         :</tspan>
-  <tspan fill="#F4F4F5"> Next.js • Tailwind • WordPress</tspan>
-</text>
+    <!-- Web -->
+    <text x="28" y="320">
+      <tspan fill="#FF6B00">Web         :</tspan>
+      <tspan fill="#F4F4F5"> Next.js • Tailwind • WordPress</tspan>
+      <animate attributeName="opacity"
+               values="0;0;1"
+               dur="0.4s"
+               begin="3.6s"
+               fill="freeze"/>
+    </text>
 
-<text x="28" y="345" font-family="monospace" font-size="15">
-  <tspan fill="#FF6B00">Database    :</tspan>
-  <tspan fill="#F4F4F5"> MySQL • SQL</tspan>
-</text>
+    <!-- Database -->
+    <text x="28" y="345">
+      <tspan fill="#FF6B00">Database    :</tspan>
+      <tspan fill="#F4F4F5"> MySQL • SQL</tspan>
+      <animate attributeName="opacity"
+               values="0;0;1"
+               dur="0.4s"
+               begin="3.85s"
+               fill="freeze"/>
+    </text>
 
-<text x="28" y="370" font-family="monospace" font-size="15">
-  <tspan fill="#FF6B00">Focus       :</tspan>
-  <tspan fill="#F4F4F5"> AI • Web Development • Software Engineering</tspan>
-</text>
+    <!-- Focus -->
+    <text x="28" y="370">
+      <tspan fill="#FF6B00">Focus       :</tspan>
+      <tspan fill="#F4F4F5"> AI • Web Development • Software Engineering</tspan>
+      <animate attributeName="opacity"
+               values="0;0;1"
+               dur="0.4s"
+               begin="4.1s"
+               fill="freeze"/>
+    </text>
 
-<text x="28" y="395" font-family="monospace" font-size="15">
-  <tspan fill="#FF6B00">Projects    :</tspan>
-  <tspan fill="#F4F4F5"> Voyage Vibe (Travel Management System)</tspan>
-</text>
+    <!-- Projects -->
+    <text x="28" y="395">
+      <tspan fill="#FF6B00">Projects    :</tspan>
+      <tspan fill="#F4F4F5"> Voyage Vibe (Travel Management System)</tspan>
+      <animate attributeName="opacity"
+               values="0;0;1"
+               dur="0.4s"
+               begin="4.35s"
+               fill="freeze"/>
+    </text>
 
-<text x="28" y="420" font-family="monospace" font-size="15">
-  <tspan fill="#FF6B00">Tools       :</tspan>
-  <tspan fill="#F4F4F5"> Git • VS Code • Figma • NetBeans</tspan>
-</text>
+    <!-- Tools -->
+    <text x="28" y="420">
+      <tspan fill="#FF6B00">Tools       :</tspan>
+      <tspan fill="#F4F4F5"> Git • VS Code • Figma • NetBeans</tspan>
+      <animate attributeName="opacity"
+               values="0;0;1"
+               dur="0.4s"
+               begin="4.6s"
+               fill="freeze"/>
+    </text>
 
-<text x="28" y="445" font-family="monospace" font-size="15">
-  <tspan fill="#FF6B00">Interests   :</tspan>
-  <tspan fill="#F4F4F5"> Gym • Tech • Travel</tspan>
-</text>
+    <!-- Interests -->
+    <text x="28" y="445">
+      <tspan fill="#FF6B00">Interests   :</tspan>
+      <tspan fill="#F4F4F5"> Gym • Tech • Travel</tspan>
+      <animate attributeName="opacity"
+               values="0;0;1"
+               dur="0.4s"
+               begin="4.85s"
+               fill="freeze"/>
+    </text>
 
-<text x="28" y="470" font-family="monospace" font-size="15">
-  <tspan fill="#FF6B00">Motto       :</tspan>
-  <tspan fill="#F4F4F5"> Build. Learn. Improve. Repeat.</tspan>
-</text>
+    <!-- Motto -->
+    <text x="28" y="470">
+      <tspan fill="#FF6B00">Motto       :</tspan>
+      <tspan fill="#F4F4F5"> Build. Learn. Improve. Repeat.</tspan>
+      <animate attributeName="opacity"
+               values="0;0;1"
+               dur="0.4s"
+               begin="5.1s"
+               fill="freeze"/>
+    </text>
 
   </g>
 
-  <!-- Cursor -->
-  <rect x="28" y="485" width="9" height="17" fill="#FF6B00">
-    <animate
-      attributeName="opacity"
-      values="1;0;1"
-      dur="1s"
-      repeatCount="indefinite"/>
+  <!-- Blinking cursor -->
+  <rect x="28" y="485" width="9" height="12" fill="#FF6B00">
+    <animate attributeName="opacity"
+             values="1;0;1"
+             dur="1s"
+             repeatCount="indefinite"/>
   </rect>
 
 </svg>
