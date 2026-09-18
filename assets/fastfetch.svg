@@ -79,63 +79,20 @@ values="0;1" fill="freeze"/>
 
 <!-- BIG GLITCH D -->
 
-<g opacity="0">
+<g opacity="1">
 
-<text x="70" y="285"
+<text x="65" y="300"
 fill="#FF6B00"
 font-family="monospace"
 font-size="260"
 font-weight="bold">
 D
 
-<animate
-attributeName="opacity"
-begin="2s"
-dur="0.25s"
-values="0;1;0.3;1"
-fill="freeze"/>
 
-<animate
-attributeName="x"
-begin="2s"
-dur="0.3s"
-values="70;76;67;70"
-fill="freeze"/>
-</text>
 
 <!-- Glitch layers -->
 
-<text x="74" y="285"
-fill="#FF8A00"
-font-family="monospace"
-font-size="260"
-font-weight="bold"
-opacity="0">
-D
-<animate
-attributeName="opacity"
-begin="2.1s"
-dur="0.08s"
-values="0;1;0;0"
-repeatCount="3"/>
-</text>
 
-<text x="65" y="285"
-fill="#FF4500"
-font-family="monospace"
-font-size="260"
-font-weight="bold"
-opacity="0">
-D
-<animate
-attributeName="opacity"
-begin="2.15s"
-dur="0.1s"
-values="0;1;0"
-repeatCount="2"/>
-</text>
-
-</g>
 
 <!-- Information -->
 
